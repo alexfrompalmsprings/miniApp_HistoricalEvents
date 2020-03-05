@@ -5,7 +5,7 @@
   "main": "./client/app.jsx",
   "scripts": {
     "start": "json-server -p 3308 data/db.json",
-    "build": "webpack -d --watch"
+    "build": "webpack -d -w"
   },
   "repository": {
     "type": "git",
