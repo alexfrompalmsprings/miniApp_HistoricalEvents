@@ -1,0 +1,37 @@
+{
+  "name": "miniapp2historicalvents",
+  "version": "1.0.0",
+  "description": "Historical Events - Mini App #1",
+  "main": "./client/app.jsx",
+  "scripts": {
+    "start": "json-server -p 3308 data/db.json",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexfrompalmsprings/hrr43-mini-apps-2"
+  },
+  "keywords": [
+    "Historical",
+    "Events",
+    "Finder"
+  ],
+  "author": "AlexFromPalmSprings",
+  "license": "ISC",
+  "homepage": "https://github.com/alexfrompalmsprings/hrr43-mini-apps-2#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "json-server": "^0.15.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-paginate": "^6.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}

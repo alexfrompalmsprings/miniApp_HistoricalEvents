@@ -1,0 +1,2 @@
+change the port if the server crashes  ➡️ //https://github.com/typicode/json-server/issues/186
+
